@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+    font-size: 22px;
+}
+
+.h1-20px {
+    font-size: 20px;
+}
+
+.h1-24px {
+    font-size: 24px;
+}
+
+
