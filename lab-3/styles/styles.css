@@ -1,0 +1,63 @@
+
+/*--- general styles ---*/
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.block {
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+h3 {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+p {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.first-block {
+    background-color: #e1c7e8;
+}
+
+.first-block h3 {
+    background-color: #e884ae;
+}
+
+.second-block {
+    background-color: #bbdea3;
+}
+
+.second-block h3 {
+    background-color: #4a8f33;
+}
+
+.third-block {
+    background-color: #a4b8ea;
+}
+
+.third-block h3 {
+    background-color: #1e58e5;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
