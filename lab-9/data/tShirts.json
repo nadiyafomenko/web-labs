@@ -1,0 +1,29 @@
+{
+  "section": "T shirts",
+  "data": [
+    {
+      "id": 1,
+      "name": "Russian Warship Go F Yourself Ukraine Postage Stamp Ukrainian Pride T-Shirt",
+      "shortname": "T-Shirt",
+      "image": "https://images2.teeshirtpalace.com/images/productImages/rwg3158533-russian-warship-go-f-yourself-ukraine-postage-stamp-ukrainian-pride--black-at-garment.jpg?width=767",
+      "notes": "Russian Warship Go F Yourself Ukraine Postage Stamp Ukrainian Pride T-Shirt",
+      "price": "19.99 $"
+    },
+    {
+      "id": 2,
+      "name": "Ukrainian Butterfly Mashup Ukraine Flag T-Shirt",
+      "shortname": "T-Shirt",
+      "image": "https://images2.teeshirtpalace.com/images/productImages/ubm9772742-ukrainian-butterfly-mashup-ukraine-flag--black-at-garment.jpg?width=767",
+      "notes": "Ukrainian Butterfly Mashup Ukraine Flag T-Shirt",
+      "price": "23.99 $"
+    },
+    {
+      "id": 3,
+      "name": "Ukrainian Cross Ukraine Volodymyr Zelenskyy Military Army T-Shirt",
+      "shortname": "T-Shirt",
+      "image": "https://images2.teeshirtpalace.com/images/productImages/ucu2521985-ukrainian-cross-ukraine-volodymyr-zelenskyy-military-army--military-at-garment.jpg?width=767",
+      "notes": "Ukrainian Cross Ukraine Volodymyr Zelenskyy Military Army T-Shirt",
+      "price": "100 $"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "section": "Backpacks",
+  "data": [
+    {
+      "id": 1,
+      "name": "Tom Bihn Synik 22",
+      "shortname": "TOM BIHN",
+      "image": "https://media.wired.com/photos/61aa854be7fb472dceb06a75/master/w_2580%2Cc_limit/Gear=-Fjallraven-Kanken.jpg",
+      "notes": "Because the bag is so small, the pass-through on the back is only 7 inches wide—too narrow to slip over the handle of a carry-on. And the dense fabric and plentiful hardware—the zippers, O-rings, and buckles—make it a little heavy. But in the 22-liter size, she didn't notice the extra weight. It's the perfect, organized conference companion, but it's on the highest end of what we think is worth spending on a bag.\n\n",
+      "price": "310 $"
+    },
+    {
+      "id": 2,
+      "name": "Rains Backpack Mini",
+      "shortname": "RAINS",
+      "image": "https://media.wired.com/photos/61aa854aae719596136b93a6/master/w_2580%2Cc_limit/Gear-Jansport-Right-Pack-Premium-SOURCE-JanSport.jpg",
+      "notes": "I am a working, grown adult, not a high schooler headed to algebra or a hiker traversing the Alps. When I leave my work-from-home bubble to venture outside, my bag should look like",
+      "price": "95 $"
+    },
+    {
+      "id": 3,
+      "name": "Herschel Heritage Backpack",
+      "shortname": "HERSCHEL",
+      "image": "https://media.wired.com/photos/61aa854bb7391d86bbd9a4e2/master/w_2580%2Cc_limit/Gear-Herschel-Heritage-closed-SOURCE-Herschel.jpg",
+      "notes": "The Tom Bihn is priced out of many budgets, but you don't have to settle for a crappy bag if you want to save money.",
+      "price": "65 $"
+    }
+  ]
+}

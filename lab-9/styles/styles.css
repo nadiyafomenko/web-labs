@@ -1,0 +1,16 @@
+header {
+    margin: 25px;
+}
+
+.backpacks-header, .boots-header, .t-shirts-header, .section-header {
+    margin: 25px;
+}
+
+.backpacks-carousel, .t-shirts-carousel, .boots-carousel, .specials-carousel {
+    padding: 0 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    overflow: auto;
+}
