@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded',  () => {
         specialsList.data.forEach(item => {
             specials.innerHTML += `
              <div class="card" style="width: 18rem" >
-                  <img src="${item.image}" class="card-img-top" style="width: 18rem; height: 15rem" alt="...">
+                  <img src="${item.image}" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">${item.name}</h5>
                     <h6 class="card-title">${item.shortname}</h6>
