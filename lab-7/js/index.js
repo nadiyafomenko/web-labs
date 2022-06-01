@@ -17,6 +17,10 @@ const twoLegs = (leg1, leg2) => {
 }
 
 const legAndHypotenuse = (leg, hypotenuse) => {
+    if (leg > hypotenuse) {
+        return false
+    }
+
     const b = +Math.sqrt(Math.pow(hypotenuse, 2) - Math.pow(leg, 2)).toFixed(2)
 
     const alpha = +(Math.atan(leg / b) * (180 / Math.PI)).toFixed(2)
@@ -26,6 +30,10 @@ const legAndHypotenuse = (leg, hypotenuse) => {
 }
 
 const legAndeAngle = (leg, angle, opposite = false) => {
+    if (angle >= 90) {
+        return false
+    }
+
     let c
     if (opposite) {
         c = leg / Math.sin(angle * (Math.PI / 180))
@@ -42,6 +50,10 @@ const legAndeAngle = (leg, angle, opposite = false) => {
 }
 
 const hypotenuseAndAngle = (hypotenuse, angle) => {
+    if (angle >= 90) {
+        return false
+    }
+
     const alpha = 90 - angle
 
     const a = hypotenuse * Math.cos(alpha * (Math.PI / 180));
@@ -108,11 +120,21 @@ const triangle = (valueFirst, typeFirst, valueSecond, typeSecond, printRes = tru
         result = hypotenuseAndAngle(valueSecond, valueFirst)
     }
 
-    if (printRes) {
+    if (!result) {
+        console.error('Incorrect data')
+        return;
+    }
+
+    if ((result.a + result.b) < result.c) {
+        console.error('Incorrect data')
+        return;
+    }
+
+    if (printRes && result) {
         printResult(result.a, result.b, result.c, result.alpha, result.beta)
     }
 
     return result
 }
 
-triangle(5, "hypotenuse", 3, "leg")
+triangle(5, "leg", 90, "opposite angle")
