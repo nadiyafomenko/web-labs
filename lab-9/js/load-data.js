@@ -69,28 +69,6 @@ document.addEventListener('DOMContentLoaded',  () => {
     })
 })
 
-window.addEventListener('load', (event) => {
-    const all = [].concat(bootsList.data, backpacksList.data, tShirtsList.data);
-    const shuffled = all.sort(() => 0.5 - Math.random());
-
-    let selected = shuffled.slice(0, 5);
-
-    const specials = document.querySelector('.specials-carousel');
-
-    selected.forEach(item => {
-        specials.innerHTML += `
-             <div class="card" style="width: 18rem;">
-                  <img src="${item.image}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">${item.name}</h5>
-                    <h6 class="card-title">${item.shortname}</h6>
-                    <p class="card-text">${item.notes}</p>
-                    <div>${item.price}</div>
-                  </div>
-             </div>`
-    })
-});
-
 const reload = document.querySelector('#reload');
 
 reload.addEventListener('click', () => {
