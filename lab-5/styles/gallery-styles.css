@@ -14,13 +14,6 @@ a:nth-child(2) {
     font-style: italic;
 }
 
-section {
-    width: 100vw;
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 section > div {
     display: flex;
     justify-content: center;
@@ -32,20 +25,3 @@ img {
     width: 200px;
     height: 200px;
 }
-
-
-@media screen and (max-width: 768px) {
-    section {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    section {
-        column-gap: 0;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-

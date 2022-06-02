@@ -3,7 +3,7 @@ h3 {
 }
 
 ul > li  {
-    margin-bottom: 30px;
+    display: block;
 }
 
 ul > li > a {
@@ -35,12 +35,6 @@ article {
 
 h2 {
     font-size: 1.6rem;
-}
-
-#sections {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 #basic-info {
@@ -96,22 +90,4 @@ a:nth-child(11) {
 
 a:nth-child(2) {
     font-style: italic;
-}
-
-
-
-@media screen and (max-width: 768px) {
-    #sections {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    #sections {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
 }
